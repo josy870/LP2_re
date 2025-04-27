@@ -1,0 +1,5 @@
+package com.upeu.entity;
+
+public class Category {
+
+}

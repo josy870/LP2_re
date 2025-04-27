@@ -1,0 +1,5 @@
+package com.upeu.service;
+
+public interface CategoryService {
+
+}

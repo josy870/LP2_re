@@ -1,0 +1,6 @@
+package com.upeu.service;
+
+public interface CategoryService {
+	public List<Category> listAllCategories();
+
+}

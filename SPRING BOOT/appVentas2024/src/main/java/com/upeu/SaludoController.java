@@ -1,0 +1,15 @@
+package com.upeu;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(value="saludar")
+public class SaludoController {
+
+	@GetMapping
+	public String saludando() {
+		return "hola mundo ggaaaaaaaaaaaaaaaaaaaaaa";
+	}
+}
